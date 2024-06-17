@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(back_5.jpg);
+}
+
+.img {
+    text-align: center;
+    margin: auto;
+}
+
+.logo_img {
+    width: 180px;
+    height: 100px;
+    margin: 0;
+}
+
+.welcome {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    height: 450px;
+    padding: 10px;
+    overflow: auto;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.message {
+    max-width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.joined_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joined {
+    max-width: 500px;
+    background-color: rgb(136, 201, 239);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: #a09a9a;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: #8cca5c;
+}
+
+.send {
+    margin: auto;
+    margin-top: 10px;
+    max-width: 955px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#messageinp {
+    background: transparent;
+    border: none;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    float: right;
+    margin-top: 9px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    #messageinp {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+    .btn{
+        margin-top: 6px;
+    }
+    #messageinp {
+        width: auto;
+        font-size: 15px;
+    }
+}
